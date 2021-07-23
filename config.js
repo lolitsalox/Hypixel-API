@@ -9,7 +9,7 @@ if (fs.existsSync('.env')) {
 }
 
 const defaults = {
-  HYPIXEL_API_KEY: '79387e5d-17f7-4312-98b0-8d1b9acb16e9', // To get your API key, type '/api' on Hypixel
+  HYPIXEL_API_KEY: '', // To get your API key, type '/api' on Hypixel
   HYPIXEL_API_LIMIT: 120, // API key throttle limit
   ROLE: '', // for specifying the file that should be run when entry point is invoked
   GROUP: '', // for specifying the group of apps that should be run when entry point is invoked
